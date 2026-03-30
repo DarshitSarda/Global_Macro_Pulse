@@ -1,0 +1,123 @@
+session,branch,asset_name,bloomberg_ticker,save_as_filename,folder,bbg_key_to_press,notes
+1,branch1_fear,CBOE VIX 30D,VIX Index,VIX_Index.csv,raw/volatility,INDEX,Gold standard fear gauge
+1,branch1_fear,CBOE VIX 9D,VIX9D Index,VIX9D_Index.csv,raw/volatility,INDEX,May only go back to 2011
+1,branch1_fear,CBOE VIX 3M,VIX3M Index,VIX3M_Index.csv,raw/volatility,INDEX,May only go back to 2008
+1,branch1_fear,CBOE VIX 6M,VIX6M Index,VIX6M_Index.csv,raw/volatility,INDEX,May only go back to 2008
+1,branch1_fear,VSTOXX Euro Vol,V2X Index,V2X_Index.csv,raw/volatility,INDEX,Euro Stoxx 50 vol
+1,branch1_fear,VDAX German Vol,VDAX Index,VDAX_Index.csv,raw/volatility,INDEX,Germany vol
+1,branch1_fear,Nikkei Vol VNKY,VNKY Index,VNKY_Index.csv,raw/volatility,INDEX,Japan vol - may start ~2003
+1,branch1_fear,Hang Seng Vol,VHSI Index,VHSI_Index.csv,raw/volatility,INDEX,HK vol
+1,branch1_fear,MOVE Bond Vol Index,MOVE Index,MOVE_Index.csv,raw/volatility,INDEX,Bond market VIX
+1,branch1_fear,CBOE SKEW Index,SKEW Index,SKEW_Index.csv,raw/volatility,INDEX,Tail risk indicator
+1,branch1_fear,CBOE Equity Put Call,CPCE Index,CPCE_Index.csv,raw/volatility,INDEX,Equity P/C ratio
+1,branch1_fear,CBOE Total Put Call,CPC Index,CPC_Index.csv,raw/volatility,INDEX,Total options P/C ratio
+1,branch2_credit,US High Yield OAS,LF98OAS Index,LF98OAS_Index.csv,raw/credit,INDEX,Bloomberg US HY spread
+1,branch2_credit,US Investment Grade OAS,LUACOAS Index,LUACOAS_Index.csv,raw/credit,INDEX,Bloomberg US IG spread
+1,branch2_credit,Euro High Yield OAS,HE00OAS Index,HE00OAS_Index.csv,raw/credit,INDEX,European HY spread
+1,branch2_credit,Euro Investment Grade OAS,IBOXUMAE Index,IBOXUMAE_Index.csv,raw/credit,INDEX,European IG spread
+1,branch2_credit,US 3M Treasury Bill,GB3 Govt,GB3_Govt.csv,raw/credit,GOVT,Risk-free short rate
+1,branch2_credit,US 3M OIS Swap,USSO3Z Curncy,USSO3Z_Curncy.csv,raw/credit,CURNCY,OIS rate
+1,branch2_credit,EM USD Sovereign Spread,JPEIGLBL Index,JPEIGLBL_Index.csv,raw/credit,INDEX,EMBI Global spread
+1,branch2_credit,Italy 10Y BTP Yield,GBTPGR10 Index,GBTPGR10_Index.csv,raw/credit,INDEX,Key EU stress indicator
+1,branch2_credit,Germany 10Y Bund Yield,GDBR10 Index,GDBR10_Index.csv,raw/rates,INDEX,Also used in branch 4
+2,branch3_equity,New Zealand NZX 50,NZ50 Index,NZ50_Index.csv,raw/equities,INDEX,Opens first in sequence
+2,branch3_equity,Australia ASX 200,AS51 Index,AS51_Index.csv,raw/equities,INDEX,Commodity heavy
+2,branch3_equity,Japan Nikkei 225,NKY Index,NKY_Index.csv,raw/equities,INDEX,Key Asia open
+2,branch3_equity,Japan TOPIX,TPX Index,TPX_Index.csv,raw/equities,INDEX,Broader Japan
+2,branch3_equity,Taiwan TAIEX,TWSE Index,TWSE_Index.csv,raw/equities,INDEX,Semis proxy
+2,branch3_equity,South Korea KOSPI,KOSPI Index,KOSPI_Index.csv,raw/equities,INDEX,Tech and EM proxy
+2,branch3_equity,Hong Kong Hang Seng,HSI Index,HSI_Index.csv,raw/equities,INDEX,HK and China offshore
+2,branch3_equity,China CSI 300,SHSZ300 Index,SHSZ300_Index.csv,raw/equities,INDEX,Mainland China
+2,branch3_equity,China Shanghai Composite,SHCOMP Index,SHCOMP_Index.csv,raw/equities,INDEX,Pre-2000 data quality poor
+2,branch3_equity,Singapore STI,STI Index,STI_Index.csv,raw/equities,INDEX,SE Asia gateway
+2,branch3_equity,India Nifty 50,NIFTY Index,NIFTY_Index.csv,raw/equities,INDEX,Largest India index
+2,branch3_equity,India SENSEX,SENSEX Index,SENSEX_Index.csv,raw/equities,INDEX,BSE benchmark
+2,branch3_equity,Brazil Bovespa,IBOV Index,IBOV_Index.csv,raw/equities,INDEX,Largest LatAm
+2,branch3_equity,Canada TSX,SPTSX Index,SPTSX_Index.csv,raw/equities,INDEX,Energy and financials
+3,branch3_equity,Germany DAX,DAX Index,DAX_Index.csv,raw/equities,INDEX,Europe opens here
+3,branch3_equity,France CAC 40,CAC Index,CAC_Index.csv,raw/equities,INDEX,French large cap
+3,branch3_equity,UK FTSE 100,UKX Index,UKX_Index.csv,raw/equities,INDEX,UK benchmark
+3,branch3_equity,Switzerland SMI,SMI Index,SMI_Index.csv,raw/equities,INDEX,Safe haven equity
+3,branch3_equity,Euro Stoxx 50,SX5E Index,SX5E_Index.csv,raw/equities,INDEX,Broad eurozone
+3,branch3_equity,Stoxx Europe 600,SXXP Index,SXXP_Index.csv,raw/equities,INDEX,Broadest Europe
+3,branch3_equity,US S&P 500,SPX Index,SPX_Index.csv,raw/equities,INDEX,Core US benchmark
+3,branch3_equity,US Dow Jones,INDU Index,INDU_Index.csv,raw/equities,INDEX,30 stock price weighted
+3,branch3_equity,US NASDAQ Composite,CCMP Index,CCMP_Index.csv,raw/equities,INDEX,Tech heavy
+3,branch3_equity,US NASDAQ 100,NDX Index,NDX_Index.csv,raw/equities,INDEX,Top 100 non-financial
+3,branch3_equity,US Russell 2000,RTY Index,RTY_Index.csv,raw/equities,INDEX,Small cap US
+3,branch3_equity,Philadelphia Semis SOX,SOX Index,SOX_Index.csv,raw/equities,INDEX,Global tech cycle leader
+3,branch3_equity,US Financials XLF,XLF US Equity,XLF_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Energy XLE,XLE US Equity,XLE_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Technology XLK,XLK US Equity,XLK_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Utilities XLU,XLU US Equity,XLU_US_Equity.csv,raw/equities,EQUITY,Defensive - starts 1998
+3,branch3_equity,US Health Care XLV,XLV US Equity,XLV_US_Equity.csv,raw/equities,EQUITY,Defensive - starts 1998
+3,branch3_equity,US Industrials XLI,XLI US Equity,XLI_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Materials XLB,XLB US Equity,XLB_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Consumer Disc XLY,XLY US Equity,XLY_US_Equity.csv,raw/equities,EQUITY,SPDR sector ETF - starts 1998
+3,branch3_equity,US Consumer Staples XLP,XLP US Equity,XLP_US_Equity.csv,raw/equities,EQUITY,Defensive - starts 1998
+4,branch4_rates,US 2Y Treasury Yield,USGG2YR Index,USGG2YR_Index.csv,raw/rates,INDEX,Short end
+4,branch4_rates,US 5Y Treasury Yield,USGG5YR Index,USGG5YR_Index.csv,raw/rates,INDEX,Mid curve
+4,branch4_rates,US 10Y Treasury Yield,USGG10YR Index,USGG10YR_Index.csv,raw/rates,INDEX,Global benchmark
+4,branch4_rates,US 30Y Treasury Yield,USGG30YR Index,USGG30YR_Index.csv,raw/rates,INDEX,Long end
+4,branch4_rates,Germany 2Y Schatz,GDBR2 Index,GDBR2_Index.csv,raw/rates,INDEX,Short EU rate
+4,branch4_rates,Germany 5Y Bobl,GDBR5 Index,GDBR5_Index.csv,raw/rates,INDEX,Mid EU rate
+4,branch4_rates,Germany 30Y Bund,GDBR30 Index,GDBR30_Index.csv,raw/rates,INDEX,Long EU rate
+4,branch4_rates,UK 2Y Gilt,GUKG2 Index,GUKG2_Index.csv,raw/rates,INDEX,Short UK rate
+4,branch4_rates,UK 5Y Gilt,GUKG5 Index,GUKG5_Index.csv,raw/rates,INDEX,Mid UK rate
+4,branch4_rates,UK 10Y Gilt,GUKG10 Index,GUKG10_Index.csv,raw/rates,INDEX,UK benchmark
+4,branch4_rates,UK 30Y Gilt,GUKG30 Index,GUKG30_Index.csv,raw/rates,INDEX,Long UK rate
+4,branch4_rates,Japan 2Y JGB,GJGB2 Index,GJGB2_Index.csv,raw/rates,INDEX,Near zero for decades
+4,branch4_rates,Japan 5Y JGB,GJGB5 Index,GJGB5_Index.csv,raw/rates,INDEX,BOJ YCC distorted
+4,branch4_rates,Japan 10Y JGB,GJGB10 Index,GJGB10_Index.csv,raw/rates,INDEX,BOJ YCC target
+4,branch4_rates,Japan 30Y JGB,GJGB30 Index,GJGB30_Index.csv,raw/rates,INDEX,Long Japan rate
+4,branch4_rates,Italy 10Y BTP,GBTPGR10 Index,GBTPGR10_Index.csv,raw/rates,INDEX,Already saved in session 1
+4,branch4_rates,France 10Y OAT,GFRN10 Index,GFRN10_Index.csv,raw/rates,INDEX,Core EU peripheral
+4,branch4_rates,Switzerland 10Y,GSWISS10 Index,GSWISS10_Index.csv,raw/rates,INDEX,Safe haven rate
+4,branch4_rates,Australia 10Y,GACGB10 Index,GACGB10_Index.csv,raw/rates,INDEX,Commodity economy
+4,branch4_rates,Canada 10Y,GCAN10YR Index,GCAN10YR_Index.csv,raw/rates,INDEX,Energy economy
+4,branch4_rates,India 10Y,GIND10YR Index,GIND10YR_Index.csv,raw/rates,INDEX,EM rates
+4,branch4_rates,China 10Y,GCNY10YR Index,GCNY10YR_Index.csv,raw/rates,INDEX,PBOC influenced
+4,branch4_rates,US 10Y Breakeven Inflation,USGGBE10 Index,USGGBE10_Index.csv,raw/rates,INDEX,Real rates proxy
+4,branch4_rates,US 5Y Breakeven Inflation,USGGBE05 Index,USGGBE05_Index.csv,raw/rates,INDEX,5Y inflation expectations
+5,branch5_commodities_fx,Gold Front Month,GC1 Comdty,GC1_Comdty.csv,raw/commodities,CMDTY,Roll dates in data - ok
+5,branch5_commodities_fx,Silver Front Month,SI1 Comdty,SI1_Comdty.csv,raw/commodities,CMDTY,Roll dates in data - ok
+5,branch5_commodities_fx,Copper Front Month,HG1 Comdty,HG1_Comdty.csv,raw/commodities,CMDTY,Economic thermometer
+5,branch5_commodities_fx,WTI Crude Oil,CL1 Comdty,CL1_Comdty.csv,raw/commodities,CMDTY,Roll dates in data - ok
+5,branch5_commodities_fx,Brent Crude,CO1 Comdty,CO1_Comdty.csv,raw/commodities,CMDTY,Global oil benchmark
+5,branch5_commodities_fx,Natural Gas,NG1 Comdty,NG1_Comdty.csv,raw/commodities,CMDTY,High volatility
+5,branch5_commodities_fx,Wheat,ZW1 Comdty,ZW1_Comdty.csv,raw/commodities,CMDTY,Food security
+5,branch5_commodities_fx,Corn,ZC1 Comdty,ZC1_Comdty.csv,raw/commodities,CMDTY,EM inflation proxy
+5,branch5_commodities_fx,Soybeans,ZS1 Comdty,ZS1_Comdty.csv,raw/commodities,CMDTY,China demand proxy
+5,branch5_commodities_fx,Bloomberg Commodity Index,BCOM Index,BCOM_Index.csv,raw/commodities,INDEX,Broad commodity basket
+5,branch5_commodities_fx,Baltic Dry Index,BDIY Index,BDIY_Index.csv,raw/commodities,INDEX,Physical demand proxy
+5,branch5_commodities_fx,US Dollar Index DXY,DXY Curncy,DXY_Curncy.csv,raw/fx,CURNCY,EUR dominated
+5,branch5_commodities_fx,Euro US Dollar,EURUSD Curncy,EURUSD_Curncy.csv,raw/fx,CURNCY,Pre-1999 synthetic
+5,branch5_commodities_fx,US Dollar Japanese Yen,USDJPY Curncy,USDJPY_Curncy.csv,raw/fx,CURNCY,Risk sentiment proxy
+5,branch5_commodities_fx,British Pound US Dollar,GBPUSD Curncy,GBPUSD_Curncy.csv,raw/fx,CURNCY,Cable
+5,branch5_commodities_fx,US Dollar Swiss Franc,USDCHF Curncy,USDCHF_Curncy.csv,raw/fx,CURNCY,CHF safe haven
+5,branch5_commodities_fx,Australian Dollar,AUDUSD Curncy,AUDUSD_Curncy.csv,raw/fx,CURNCY,China and commodity proxy
+5,branch5_commodities_fx,US Dollar Canadian Dollar,USDCAD Curncy,USDCAD_Curncy.csv,raw/fx,CURNCY,Oil-linked
+5,branch5_commodities_fx,New Zealand Dollar,NZDUSD Curncy,NZDUSD_Curncy.csv,raw/fx,CURNCY,Commodity and dairy
+5,branch5_commodities_fx,US Dollar Chinese Yuan,USDCNY Curncy,USDCNY_Curncy.csv,raw/fx,CURNCY,Managed float post-2005
+5,branch5_commodities_fx,US Dollar Indian Rupee,USDINR Curncy,USDINR_Curncy.csv,raw/fx,CURNCY,India EM proxy
+5,branch5_commodities_fx,US Dollar Brazilian Real,USDBRL Curncy,USDBRL_Curncy.csv,raw/fx,CURNCY,EM risk appetite
+5,branch5_commodities_fx,US Dollar Turkish Lira,USDTRY Curncy,USDTRY_Curncy.csv,raw/fx,CURNCY,High vol EM
+5,branch5_commodities_fx,US Dollar South African Rand,USDZAR Curncy,USDZAR_Curncy.csv,raw/fx,CURNCY,Commodity EM
+5,branch5_commodities_fx,US Dollar Mexican Peso,USDMXN Curncy,USDMXN_Curncy.csv,raw/fx,CURNCY,LatAm risk
+5,branch5_commodities_fx,AUD JPY Carry,AUDJPY Curncy,AUDJPY_Curncy.csv,raw/fx,CURNCY,Global carry health
+6,branch6_macro,Citi US Econ Surprise,CESIUSD Index,CESIUSD_Index.csv,raw/macro_fundamentals,INDEX,Data vs consensus
+6,branch6_macro,Citi Eurozone Surprise,CESIEUR Index,CESIEUR_Index.csv,raw/macro_fundamentals,INDEX,EU data surprise
+6,branch6_macro,Citi China Surprise,CESICNY Index,CESICNY_Index.csv,raw/macro_fundamentals,INDEX,China surprise
+6,branch6_macro,Citi EM Surprise,CESIEM Index,CESIEM_Index.csv,raw/macro_fundamentals,INDEX,EM aggregate
+6,branch6_macro,Citi G10 Surprise,CESIG10 Index,CESIG10_Index.csv,raw/macro_fundamentals,INDEX,G10 aggregate
+6,branch6_macro,US ISM Manufacturing PMI,NAPMPMI Index,NAPMPMI_Index.csv,raw/macro_fundamentals,INDEX,Monthly - pipeline handles
+6,branch6_macro,US ISM Services PMI,NAPMNMI Index,NAPMNMI_Index.csv,raw/macro_fundamentals,INDEX,Monthly
+6,branch6_macro,Eurozone Manufacturing PMI,MPMIEZMA Index,MPMIEZMA_Index.csv,raw/macro_fundamentals,INDEX,Monthly Markit
+6,branch6_macro,China Caixin Mfg PMI,CPMINDX Index,CPMINDX_Index.csv,raw/macro_fundamentals,INDEX,Private sector China
+6,branch6_macro,China Official NBS PMI,CHNMANPMI Index,CHNMANPMI_Index.csv,raw/macro_fundamentals,INDEX,State sector China
+6,branch6_macro,Japan Manufacturing PMI,MPMIJPMA Index,MPMIJPMA_Index.csv,raw/macro_fundamentals,INDEX,Monthly
+6,branch6_macro,UK Manufacturing PMI,UKMANPMI Index,UKMANPMI_Index.csv,raw/macro_fundamentals,INDEX,Monthly
+6,branch6_macro,India Manufacturing PMI,INDIAMFPMI Index,INDIAMFPMI_Index.csv,raw/macro_fundamentals,INDEX,Monthly
+6,branch6_macro,Univ Michigan Consumer Sentiment,CONSSENT Index,CONSSENT_Index.csv,raw/macro_fundamentals,INDEX,Monthly US consumer
+6,branch6_macro,Conference Board Consumer Conf,CONCCONF Index,CONCCONF_Index.csv,raw/macro_fundamentals,INDEX,Monthly US consumer
+6,branch6_macro,Conference Board Leading Index,USCNFCBLI Index,USCNFCBLI_Index.csv,raw/macro_fundamentals,INDEX,Composite leading indicator

@@ -1,0 +1,118 @@
+ticker,transformation
+NZ50 Index,log_return
+AS51 Index,log_return
+NKY Index,log_return
+TPX Index,log_return
+TWSE Index,log_return
+KOSPI Index,log_return
+HSI Index,log_return
+SHSZ300 Index,log_return
+SHCOMP Index,log_return
+STI Index,log_return
+NIFTY Index,log_return
+SENSEX Index,log_return
+DAX Index,log_return
+CAC Index,log_return
+UKX Index,log_return
+SMI Index,log_return
+SX5E Index,log_return
+SXXP Index,log_return
+IBOV Index,log_return
+SPTSX Index,log_return
+SPX Index,log_return
+INDU Index,log_return
+CCMP Index,log_return
+NDX Index,log_return
+RTY Index,log_return
+SOX Index,log_return
+XLF US Equity,log_return
+XLE US Equity,log_return
+XLK US Equity,log_return
+XLU US Equity,log_return
+XLV US Equity,log_return
+XLI US Equity,log_return
+XLB US Equity,log_return
+XLY US Equity,log_return
+XLP US Equity,log_return
+VIX Index,log_return
+VIX9D Index,log_return
+VIX3M Index,log_return
+VIX6M Index,log_return
+V2X Index,log_return
+V1X Index,log_return
+VNKY Index,log_return
+VHSI Index,log_return
+MOVE Index,log_return
+SKEW Index,log_return
+CPCE Index,log_return
+GC1 Comdty,log_return
+SI1 Comdty,log_return
+HG1 Comdty,log_return
+CL1 Comdty,log_return
+CO1 Comdty,log_return
+NG1 Comdty,log_return
+W1 Index,log_return
+C1 Index,log_return
+S1 Index,log_return
+BCOM Index,log_return
+BDIY Index,log_return
+DXY Curncy,log_return
+EURUSD Curncy,log_return
+USDJPY Curncy,log_return
+GBPUSD Curncy,log_return
+USDCHF Curncy,log_return
+AUDUSD Curncy,log_return
+USDCAD Curncy,log_return
+NZDUSD Curncy,log_return
+USDCNY Curncy,log_return
+USDINR Curncy,log_return
+USDBRL Curncy,log_return
+USDTRY Curncy,log_return
+USDZAR Curncy,log_return
+USDMXN Curncy,log_return
+AUDJPY Curncy,log_return
+USGG2YR Index,first_diff
+USGG5YR Index,first_diff
+USGG10YR Index,first_diff
+USGG30YR Index,first_diff
+USGGBE10 Index,first_diff
+USGGBE05 Index,first_diff
+GDBR10 Equity,first_diff
+GDBR2 Index,first_diff
+GDBR5 Index,first_diff
+GDBR10 Index,first_diff
+GDBR30 Index,first_diff
+GUKG2 Index,first_diff
+GUKG5 Index,first_diff
+GUKG10 Index,first_diff
+GUKG30 Index,first_diff
+GJGB2 Index,first_diff
+GJGB5 Index,first_diff
+GJGB10 Index,first_diff
+GJGB30 Index,first_diff
+GBTPGR10 Index,first_diff
+GFRN10 Index,first_diff
+GSWISS10 Index,first_diff
+GACGB10 Index,first_diff
+GCAN10YR Index,first_diff
+GIND10YR Index,first_diff
+GCNY10YR Index,first_diff
+LF98OAS Index,first_diff
+LUACOAS Index,first_diff
+LP01OAS Index,first_diff
+LECPOAS Index,first_diff
+JPEIGLBL Index,first_diff
+GBTPGR10 Credit,first_diff
+GB3 Govt,first_diff
+USSO3Z Curncy,first_diff
+CESIUSD Index,level
+CESIEUR Index,level
+CESICNY Index,level
+CESIEM Index,level
+CESIG10 Index,level
+NAPMPMI Index,level
+NAPMNMI Index,level
+CPMINDX Index,level
+CONSSENT Index,level
+CONCCONF Index,level
+LEI TOTL Index,level
