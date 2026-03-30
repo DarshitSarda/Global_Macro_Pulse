@@ -1,0 +1,51 @@
+{
+  "method": "regime_mean_separation",
+  "weighting": "calibrated_2x_extreme",
+  "weight_map": {
+    "HIGH": 2.0,
+    "MID_H": 1.5,
+    "MID_L": 1.2,
+    "LOW": 1.0,
+    "CALM": 0.8
+  },
+  "branch_polarity": {
+    "fear": "positive",
+    "credit": "positive",
+    "equity": "positive",
+    "rates": "negative",
+    "commod": "negative",
+    "macro": "negative"
+  },
+  "anchor_pairs": {
+    "fear": [
+      "GOLDILOCKS",
+      "CRISIS"
+    ],
+    "credit": [
+      "GOLDILOCKS",
+      "CRISIS"
+    ],
+    "equity": [
+      "GOLDILOCKS",
+      "CRISIS"
+    ],
+    "rates": [
+      "GOLDILOCKS",
+      "CRISIS"
+    ],
+    "commod": [
+      "GOLDILOCKS",
+      "CRISIS"
+    ],
+    "macro": [
+      "EXPANSION",
+      "RISK-OFF"
+    ]
+  },
+  "accuracy_original": 0.12264723740133576,
+  "accuracy_equal_opt": 0.29933211900425016,
+  "accuracy_weighted": 0.21068609593199758,
+  "mean_threshold_shift": 15.766666666666666,
+  "train_end": "2014-12-31",
+  "test_start": "2020-01-01"
+}

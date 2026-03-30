@@ -1,0 +1,44 @@
+{
+  "fear": {
+    "low": 41.1,
+    "mid_low": 45.7,
+    "mid_high": 58.1,
+    "high": 68.2,
+    "polarity": "positive"
+  },
+  "credit": {
+    "low": 46.8,
+    "mid_low": 49.2,
+    "mid_high": 56.9,
+    "high": 67.7,
+    "polarity": "positive"
+  },
+  "equity": {
+    "low": 51.4,
+    "mid_low": 58.5,
+    "mid_high": 59.2,
+    "high": 63.7,
+    "polarity": "positive"
+  },
+  "rates": {
+    "low": 24.8,
+    "mid_low": 36.5,
+    "mid_high": 49.1,
+    "high": 52.4,
+    "polarity": "negative"
+  },
+  "commod": {
+    "low": 38.9,
+    "mid_low": 51.6,
+    "mid_high": 55.2,
+    "high": 60.9,
+    "polarity": "negative"
+  },
+  "macro": {
+    "low": 43.9,
+    "mid_low": 49.7,
+    "mid_high": 54.0,
+    "high": 56.8,
+    "polarity": "negative"
+  }
+}
